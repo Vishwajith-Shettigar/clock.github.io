@@ -17,10 +17,11 @@ setInterval(()=>{
     let dis="AM"
     if(hour>12){
 
-        dis="PM"
+        dis="PM";
+     hour-=12;
 
     }
-    hour-=12;
+    
     console.log(hour);
     console.log(minute)
 
