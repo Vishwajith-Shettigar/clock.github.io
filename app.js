@@ -26,7 +26,7 @@ setInterval(()=>{
     console.log(minute)
 
 
-    container.innerHTML= `<span style= "color: rgb(${d}, ${second}, ${hour})"> ${hour} : ${minute} : ${second}  ${dis} </span>`;
+    container.innerHTML= `<span style= "color: rgb(${hour}, ${second}, ${d})"> ${hour} : ${minute} : ${second}  ${dis} </span>`;
 },1000)
 
 
